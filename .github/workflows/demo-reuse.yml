@@ -5,4 +5,4 @@ on:
       - master
 jobs:
   deploy:
-    uses: ./.github/workflows/demo-reuse.yml
+    uses: ./.github/workflows/reusable.yml

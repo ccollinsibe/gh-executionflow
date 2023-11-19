@@ -1,0 +1,8 @@
+name: Demo Reuse
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    uses: ./.github/workflows/demo-reuse.yml
